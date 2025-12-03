@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- TODO: สร้าง header -->
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+    </header>
+    <!-- TODO: สร้าง main ที่มี -->
+    <main>
+      <section id="articles">
+        <article>
+          <h2>Introduction</h2>
+          <p>
+            สวัสดีครับ ผมชื่อนายธนวัฒน์ สุนทรชัย อายุ20ปี กำลังศึกษาอยู่ที่
+            คณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา
+          </p>
+        </article>
+      </section>
+    </main>
+    <!-- 1. About section -->
+    <!-- - หัวข้อ -->
+    <!-- - รูปภาพตัวเอง <img> -->
+    <picture>
+      <source media="(min-width:650px)" srcset="nong.jpg" />
+      <source media="(min-width:465px)" srcset="nong.jpg" />
+      <img src="nong.jpg" alt="mypic" style="width: auto" />
+    </picture>
+    <!-- - ข้อมูลประกอบ -->
+    <!-- 2. Portfolio section -->
+    <!-- - List of projects ใช้ <figure> และ <figcaption> -->
+    <figure>
+      <img src="champ.jpg" alt="Trulli" style="width: 40%" />
+      <figcaption>ประสบการณ์ที่มี</figcaption>
+    </figure>
+    <!-- 3. Contact section -->
+    <!-- - Contact form -->
+    <!-- TODO: สร้าง footer -->
+  </body>
+</html>
